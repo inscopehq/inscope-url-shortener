@@ -73,6 +73,8 @@ inscope-url-shortener/
 - [ ] Create the user interface for the URL shortener
 - [ ] Connect the frontend to your backend API
 
+**UI Library Options:** Feel free to use Material-UI (already installed), plain CSS, or any other approach you're comfortable with.
+
 ### 4. Integration & Testing (5-10 minutes)
 - [ ] Ensure the complete system works end-to-end
 
