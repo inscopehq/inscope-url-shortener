@@ -63,7 +63,7 @@ inscope-url-shortener/
 
 ### 1. Database Layer (15-20 minutes)
 - [ ] Design and implement the data storage solution
-- [ ] Set up the database schema and connections
+- [ ] Set up the database schema
 
 ### 2. Backend API (25-30 minutes)
 - [ ] Build the server-side functionality for a URL shortener service
