@@ -37,9 +37,13 @@ inscope-url-shortener/
 
 ### Installation & Setup
 
-1. **Clone and install dependencies:**
+1. **Fork this repository** to your own GitHub account:
+   - Click the "Fork" button at the top-right of this GitHub page
+   - This creates a copy under your GitHub account
+
+2. **Clone your fork and install dependencies:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/[your-username]/inscope-url-shortener.git
    cd inscope-url-shortener
    npm run install-all
    ```
