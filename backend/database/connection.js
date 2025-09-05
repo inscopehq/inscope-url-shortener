@@ -10,25 +10,19 @@ const db = new sqlite3.Database(DB_PATH, (err) => {
     console.error('Error opening database:', err.message);
   } else {
     console.log('📁 Connected to SQLite database at:', DB_PATH);
-    
-    // TODO: Initialize your database tables here!
-    // Example:
-    // initializeTables();
+    initializeTables();
   }
 });
 
-// TODO: Implement your database initialization function
-// function initializeTables() {
-//   // Create your tables here
-//   // Example:
-//   // db.run(`CREATE TABLE IF NOT EXISTS urls (
-//   //   id INTEGER PRIMARY KEY AUTOINCREMENT,
-//   //   original_url TEXT NOT NULL,
-//   //   short_code TEXT UNIQUE NOT NULL,
-//   //   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-//   //   clicks INTEGER DEFAULT 0
-//   // )`);
-// }
+// TODO: Design and implement your database tables
+function initializeTables() {
+  // Your task: Create the tables needed for a URL shortener service
+  // Think about what data you need to store and how to structure it
+
+  // db.run(`CREATE TABLE IF NOT EXISTS your_table_name (
+  //   -- Define your columns here
+  // )`);
+}
 
 // Graceful shutdown
 process.on('SIGINT', () => {

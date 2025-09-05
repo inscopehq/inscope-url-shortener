@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>InScope URL Shortener</h1>
+        <h1>Inscope URL Shortener</h1>
         <p>Welcome to the coding exercise!</p>
         <p>
           Your task is to build a URL shortener service with the following features:
