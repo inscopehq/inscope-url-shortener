@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 40px 20px;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header h1 {
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+.feature-list {
+  text-align: left;
+  max-width: 500px;
+  margin: 20px 0;
+}
+
+.feature-list li {
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.placeholder {
+  margin-top: 40px;
+  padding: 30px;
+  border: 2px dashed #61dafb;
+  border-radius: 10px;
+  background-color: rgba(97, 218, 251, 0.1);
+  max-width: 600px;
+}
+
+.placeholder p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.placeholder p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+}
