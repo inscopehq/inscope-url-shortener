@@ -1,6 +1,6 @@
 # InScope URL Shortener - Coding Exercise
 
-Welcome to the InScope URL Shortener coding exercise! This repository contains a skeleton application with a React frontend, Express.js backend, and SQLite database. Your task is to implement a fully functional URL shortener service.
+Welcome to the Inscope URL Shortener coding exercise! This repository contains a skeleton application with a React frontend, Express.js backend, and SQLite database. Your task is to implement a fully functional URL shortener service.
 
 ## 🎯 Exercise Overview
 
