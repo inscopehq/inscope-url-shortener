@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Database connection (to be implemented)
-// const db = require('./database/connection');
+const db = require('./database/connection');
 
 // Routes placeholder
 app.get('/', (req, res) => {
